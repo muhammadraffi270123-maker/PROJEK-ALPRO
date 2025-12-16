@@ -21,7 +21,7 @@ def tambah():
     data = baca()
     data.append({"tanggal": tgl, "jenis": jenis, "jumlah": jumlah, "kategori": kat})
     simpan(data)
-    print("Tersimpan!\n")
+    print("Tersimpan!\n") 
 
 def lihat():
     data = baca()
@@ -52,3 +52,5 @@ while True:
     elif p == "3": saldo()
     elif p == "4": break
     else: print("Pilihan salah!\n")
+
+print("TERIMA KASIH SUDAH MENCATAT :)")
